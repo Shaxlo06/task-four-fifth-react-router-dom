@@ -1,0 +1,30 @@
+.nav {
+    min-height: 100px;
+    background-color: dodgerblue;
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    width: 500px;
+    margin: auto;
+}
+
+a {
+    font-size: 20px;
+    color: white !important;
+}
+
+.link {
+    font-size: 20px;
+    padding: 1rem;
+    position: relative;
+}
+
+.activeLink {
+    color: dodgerblue !important;
+    background-color: white;
+    border-radius: 5px;
+}

@@ -1,0 +1,26 @@
+.admin-nav {
+    min-height: 70px;
+    margin: auto;
+    background-color: rgb(121, 185, 249);
+    padding-top: 10px;
+}
+
+ul {
+    padding-left: 0px;
+}
+
+.admin-nav-ul {
+    padding-top: 14px;
+}
+
+.admin-navlink {
+    font-size: 20px;
+    padding: 1rem;
+    position: relative;
+}
+
+.admin-navlink-active {
+    color: dodgerblue !important;
+    background-color: white;
+    border-radius: 5px;
+}

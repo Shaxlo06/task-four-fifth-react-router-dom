@@ -1,0 +1,29 @@
+.users-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: calc(100vh - 280px);
+}
+
+table {
+    margin: 0 auto;
+    width: 90%;
+    border-collapse: collapse !important;
+}
+
+th, td {
+    text-align: center !important;
+    border: 1px solid black !important;
+    padding: 4px 4px;
+    font-size: 14px;
+}
+
+tr:nth-child(even) {
+    background-color: #e7e4e4;
+}
+
+td:nth-child(4) {
+    text-decoration: underline;
+    color: rgb(67, 67, 244);
+    font-style: italic;
+}
